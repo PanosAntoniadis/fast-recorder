@@ -40,7 +40,8 @@ if __name__ == "__main__":
 
     for text in sorted(os.listdir(inp)):
         while True:
-            print('press n to record ' + text + ' or q to quit')
+            print('press n to record ' +
+                  os.path.join(inp, text) + ' or q to quit')
             ans = input()
             if ans == "n":
                 break

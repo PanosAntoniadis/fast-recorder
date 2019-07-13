@@ -25,6 +25,6 @@ def record(samplerate, channels, filename):
                 while True:
                     file.write(q.get())
     except KeyboardInterrupt:
-        print('\n Recording finished: ' + repr(filename))
+        print('\nRecording finished: ' + repr(filename))
         print('\n')
         return 0
