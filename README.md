@@ -10,7 +10,8 @@ In a ASR project, a difficult and boring part is the creation of a speech datase
 # Usage
 We assume that there is a folder that contains a set of texts to be dictated. Repetitely, it displays the next text to be dictates, then waits for some seconds and starts the recording. When the user finishes the curent recording, he presses and Ctrl+C and the file is saved automatically as a .wav file.
 
-```python recorder.py -h
+``` 
+python recorder.py -h
 
 usage: recorder.py [-h] --output OUTPUT --input INPUT --rate RATE --channels
                    CHANNELS [--delay DELAY]
