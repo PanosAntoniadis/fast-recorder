@@ -1,6 +1,6 @@
 # fast-recorder
 
-In a ASR project, a difficult and boring part is the creation of a speech dataset. This script makes the dictation of a set of transcriptions easier. It was initially developed as a tool in my [GSoC project](https://github.com/eellak/gsoc2019-sphinx).
+In a ASR project, a boring part is the creation of a speech dataset. This script makes the dictation of a set of transcriptions easier. It was initially developed as a tool in my [GSoC project](https://github.com/eellak/gsoc2019-sphinx).
 
 
 ## Prerequisites
